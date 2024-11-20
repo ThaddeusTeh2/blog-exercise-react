@@ -12,11 +12,12 @@ function PostCard() {
         <div class="text-end">
           <Button
             color="blue"
-            label="Read More"
             onClick={() => {
               navigate("/post");
             }}
-          />
+          >
+            Read More
+          </Button>
         </div>
       </div>
     </div>
