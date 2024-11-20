@@ -13,17 +13,17 @@ function UserManageChildren(props) {
       <td>{name}</td>
       <td>{email}</td>
       <td>
-        <span class="badge bg-success">{role}</span>
+        <span className="badge bg-success">{role}</span>
       </td>
-      <td class="text-end">
-        <div class="buttons d-flex justify-content-end gap-1">
+      <td className="text-end">
+        <div className="buttons d-flex justify-content-end gap-1">
           <Button
             color="green"
             onClick={() => {
               navigate("/user-edit");
             }}
           >
-            <i class="bi bi-pencil"></i>
+            <i className="bi bi-pencil"></i>
           </Button>
           <Button
             color="yellow"
@@ -31,7 +31,7 @@ function UserManageChildren(props) {
               navigate("/change-pwd");
             }}
           >
-            <i class="bi bi-key"></i>
+            <i className="bi bi-key"></i>
           </Button>
           <Button
             color="red"
@@ -39,7 +39,7 @@ function UserManageChildren(props) {
               navigate("/");
             }}
           >
-            <i class="bi bi-trash"></i>
+            <i className="bi bi-trash"></i>
           </Button>
         </div>
       </td>

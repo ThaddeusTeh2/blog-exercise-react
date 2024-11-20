@@ -12,17 +12,17 @@ function PostManageChildren(props) {
       <th scope="row">{id}</th>
       <td>{title}</td>
       <td>
-        <span class="badge bg-warning">{status}</span>
+        <span className="badge bg-warning">{status}</span>
       </td>
-      <td class="text-end">
-        <div class="buttons d-flex justify-content-end gap-1">
+      <td className="text-end">
+        <div className="buttons d-flex justify-content-end gap-1">
           <Button
             color="blue"
             onClick={() => {
               navigate("/post");
             }}
           >
-            <i class="bi bi-eye"></i>
+            <i className="bi bi-eye"></i>
           </Button>
           <Button
             color="yellow"
@@ -30,7 +30,7 @@ function PostManageChildren(props) {
               navigate("/post-edit");
             }}
           >
-            <i class="bi bi-pencil"></i>
+            <i className="bi bi-pencil"></i>
           </Button>
           <Button
             color="red"
@@ -38,7 +38,7 @@ function PostManageChildren(props) {
               navigate("/");
             }}
           >
-            <i class="bi bi-trash"></i>
+            <i className="bi bi-trash"></i>
           </Button>
         </div>
       </td>

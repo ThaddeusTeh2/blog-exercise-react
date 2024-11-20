@@ -5,29 +5,29 @@ function PostAdd() {
   const navigate = useNavigate();
 
   return (
-    <div class="container mx-auto my-5" style={{ maxWidth: "700px;" }}>
-      <div class="d-flex justify-content-between align-items-center mb-2">
-        <h1 class="h1">Add New Post</h1>
+    <div className="container mx-auto my-5" style={{ maxWidth: "700px;" }}>
+      <div className="d-flex justify-content-between align-items-center mb-2">
+        <h1 className="h1">Add New Post</h1>
       </div>
-      <div class="card mb-2 p-4">
+      <div className="card mb-2 p-4">
         <form>
-          <div class="mb-3">
-            <label for="post-title" class="form-label">
+          <div className="mb-3">
+            <label for="post-title" className="form-label">
               Title
             </label>
-            <input type="text" class="form-control" id="post-title" />
+            <input type="text" className="form-control" id="post-title" />
           </div>
-          <div class="mb-3">
-            <label for="post-content" class="form-label">
+          <div className="mb-3">
+            <label for="post-content" className="form-label">
               Content
             </label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="post-content"
               rows="10"
             ></textarea>
           </div>
-          <div class="text-end">
+          <div className="text-end">
             <Button
               color="blue"
               onClick={() => {
@@ -39,9 +39,9 @@ function PostAdd() {
           </div>
         </form>
       </div>
-      <div class="text-center">
+      <div className="text-center">
         <Link to="/post-manage">
-          <i class="bi bi-arrow-left"></i> Back
+          <i className="bi bi-arrow-left"></i> Back
         </Link>
       </div>
     </div>

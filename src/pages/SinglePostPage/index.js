@@ -5,8 +5,8 @@ function PostSingle() {
   const navigate = useNavigate();
 
   return (
-    <div class="container mx-auto my-5" style={{ maxWidth: "500px;" }}>
-      <h1 class="h1 mb-4 text-center">Post 1</h1>
+    <div className="container mx-auto my-5" style={{ maxWidth: "500px;" }}>
+      <h1 className="h1 mb-4 text-center">Post 1</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus
         risus, euismod ac tristique in, suscipit quis quam. Vestibulum ante
@@ -35,9 +35,9 @@ function PostSingle() {
         eget posuere augue metus et dolor. Nunc purus eros, ultricies in sapien
         quis, sagittis posuere risus.
       </p>
-      <div class="text-center mt-3">
+      <div className="text-center mt-3">
         <Link to="/post-manage">
-          <i class="bi bi-arrow-left"></i> Back
+          <i className="bi bi-arrow-left"></i> Back
         </Link>
       </div>
     </div>

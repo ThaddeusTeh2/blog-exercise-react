@@ -7,11 +7,11 @@ function PostCard(props) {
   const { title, desc } = props;
 
   return (
-    <div class="card mb-2">
-      <div class="card-body">
-        <h5 class="card-title">{title}</h5>
-        <p class="card-text">{desc}</p>
-        <div class="text-end">
+    <div className="card mb-2">
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{desc}</p>
+        <div className="text-end">
           <Button
             color="blue"
             onClick={() => {

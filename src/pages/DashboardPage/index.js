@@ -5,22 +5,22 @@ function Dashboard() {
   const navigate = useNavigate();
 
   return (
-    <div class="container mx-auto my-5" style={{ maxWidth: "800px;" }}>
-      <h1 class="h1 mb-4 text-center">Dashboard</h1>
-      <div class="row">
-        <div class="col">
-          <div class="card mb-2">
-            <div class="card-body">
-              <h5 class="card-title text-center">
-                <div class="mb-1">
+    <div className="container mx-auto my-5" style={{ maxWidth: "800px;" }}>
+      <h1 className="h1 mb-4 text-center">Dashboard</h1>
+      <div className="row">
+        <div className="col">
+          <div className="card mb-2">
+            <div className="card-body">
+              <h5 className="card-title text-center">
+                <div className="mb-1">
                   <i
-                    class="bi bi-pencil-square"
+                    className="bi bi-pencil-square"
                     style={{ fontSize: "3rem;" }}
                   ></i>
                 </div>
                 Manage Posts
               </h5>
-              <div class="text-center mt-3">
+              <div className="text-center mt-3">
                 <Button
                   color="blue"
                   onClick={() => {
@@ -33,16 +33,16 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card mb-2">
-            <div class="card-body">
-              <h5 class="card-title text-center">
-                <div class="mb-1">
-                  <i class="bi bi-people" style={{ fontSize: "3rem;" }}></i>
+        <div className="col">
+          <div className="card mb-2">
+            <div className="card-body">
+              <h5 className="card-title text-center">
+                <div className="mb-1">
+                  <i className="bi bi-people" style={{ fontSize: "3rem;" }}></i>
                 </div>
                 Manage Users
               </h5>
-              <div class="text-center mt-3">
+              <div className="text-center mt-3">
                 <Button
                   color="blue"
                   onClick={() => {
@@ -56,9 +56,9 @@ function Dashboard() {
           </div>
         </div>
       </div>
-      <div class="mt-4 text-center">
+      <div className="mt-4 text-center">
         <Link to="/">
-          <i class="bi bi-arrow-left"></i> Back
+          <i className="bi bi-arrow-left"></i> Back
         </Link>
       </div>
     </div>
