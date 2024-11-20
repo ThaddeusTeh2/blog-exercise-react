@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Dashboard from "./pages/DashboardPage";
 import Home from "./pages/HomePage";
+import Login from "./pages/LoginPage";
 import PostAdd from "./pages/PostAddPage";
 import PostEdit from "./pages/PostEditPage";
 import PostManage from "./pages/PostManagePage";
@@ -15,7 +17,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/post-add" element={<PostAdd />} />
           <Route path="/post-edit" element={<PostEdit />} />
           <Route path="/post-manage" element={<PostManage />} />
