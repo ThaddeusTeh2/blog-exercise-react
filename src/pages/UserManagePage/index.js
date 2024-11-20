@@ -34,7 +34,26 @@ function UserManage() {
             </tr>
           </thead>
           <tbody>
-            <UserManageChildren />
+            <UserManageChildren
+              name="John"
+              email="john@gmail.com"
+              role="user"
+            />
+            <UserManageChildren
+              name="Jack"
+              email="jack@gmail.com"
+              role="editor"
+            />
+            <UserManageChildren
+              name="Jane"
+              email="jane@gmail.com"
+              role="moderator"
+            />
+            <UserManageChildren
+              name="Jill"
+              email="jill@gmail.com"
+              role="admin"
+            />
           </tbody>
         </table>
       </div>

@@ -1,15 +1,18 @@
 import Button from "./button";
 import { Link, useNavigate } from "react-router-dom";
 
-function PostManageChildren() {
+function PostManageChildren(props) {
   const navigate = useNavigate();
+
+  const { index = 0, title = "Untitled", status = "Pending Review" } = props;
+  const id = index + 1;
 
   return (
     <tr>
-      <th scope="row">5</th>
-      <td>Post</td>
+      <th scope="row">{id}</th>
+      <td>{title}</td>
       <td>
-        <span class="badge bg-warning">Pending Review</span>
+        <span class="badge bg-warning">{status}</span>
       </td>
       <td class="text-end">
         <div class="buttons d-flex justify-content-end gap-1">

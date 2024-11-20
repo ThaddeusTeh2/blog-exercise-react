@@ -1,16 +1,19 @@
 import Button from "./button";
 import { Link, useNavigate } from "react-router-dom";
 
-function UserManageChildren() {
+function UserManageChildren(props) {
   const navigate = useNavigate();
+
+  const { index = 0, name = "n/a", email = "n/a", role = "user" } = props;
+  const id = index + 1;
 
   return (
     <tr>
       <th scope="row">3</th>
-      <td>Jack</td>
-      <td>jack@gmail.com</td>
+      <td>{name}</td>
+      <td>{email}</td>
       <td>
-        <span class="badge bg-success">User</span>
+        <span class="badge bg-success">{role}</span>
       </td>
       <td class="text-end">
         <div class="buttons d-flex justify-content-end gap-1">

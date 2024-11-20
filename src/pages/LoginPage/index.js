@@ -44,6 +44,17 @@ function Login() {
           </div>
         </form>
       </div>
+
+      {/* <!-- links --> */}
+      <div class="d-flex justify-content-between align-items-center gap-3 mx-auto pt-3">
+        <Link to="/">
+          <i class="bi bi-arrow-left"></i> Back
+        </Link>
+        <Link to="/signup">
+          Dont have an Account? Sign Up Here{" "}
+          <i class="bi bi-arrow-right-circle"></i>
+        </Link>
+      </div>
     </div>
   );
 }

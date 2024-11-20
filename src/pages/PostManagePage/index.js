@@ -34,9 +34,10 @@ function PostManage() {
             </tr>
           </thead>
           <tbody>
-            <PostManageChildren />
-            <PostManageChildren />
-            <PostManageChildren />
+            <PostManageChildren title="Post 1" status="Approved" />
+            <PostManageChildren title="Post 2" status="Approved" />
+            <PostManageChildren title="Post 3" status="Pending" />
+            <PostManageChildren title="Post 4" status="Approved" />
           </tbody>
         </table>
       </div>

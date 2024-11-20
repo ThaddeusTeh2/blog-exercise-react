@@ -1,14 +1,16 @@
 import { useNavigate } from "react-router-dom";
 import Button from "./button";
 
-function PostCard() {
+function PostCard(props) {
   const navigate = useNavigate();
+
+  const { title, desc } = props;
 
   return (
     <div class="card mb-2">
       <div class="card-body">
-        <h5 class="card-title">Post</h5>
-        <p class="card-text">Here's some content about the post</p>
+        <h5 class="card-title">{title}</h5>
+        <p class="card-text">{desc}</p>
         <div class="text-end">
           <Button
             color="blue"
