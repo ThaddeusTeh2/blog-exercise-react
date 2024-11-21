@@ -1,3 +1,4 @@
+import Badge from "./badge";
 import Button from "./button";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -12,7 +13,7 @@ function PostManageChildren(props) {
       <th scope="row">{id}</th>
       <td>{title}</td>
       <td>
-        <span className="badge bg-warning">{status}</span>
+        <Badge color="yellow">Pending Review</Badge>{" "}
       </td>
       <td className="text-end">
         <div className="buttons d-flex justify-content-end gap-1">

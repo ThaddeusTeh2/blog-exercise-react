@@ -1,3 +1,4 @@
+import Badge from "./badge";
 import Button from "./button";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -13,7 +14,7 @@ function UserManageChildren(props) {
       <td>{name}</td>
       <td>{email}</td>
       <td>
-        <span className="badge bg-success">{role}</span>
+        <Badge color="yellow">{role}</Badge>{" "}
       </td>
       <td className="text-end">
         <div className="buttons d-flex justify-content-end gap-1">
