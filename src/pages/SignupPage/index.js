@@ -5,7 +5,7 @@ function Signup() {
   const navigate = useNavigate();
 
   return (
-    <div className="container my-5 mx-auto" style={{ maxWidth: "500px;" }}>
+    <div className="container my-5 mx-auto" style={{ maxWidth: "500px" }}>
       <h1 className="h1 mb-4 text-center">Sign Up a New Account</h1>
 
       <div className="card p-4">

@@ -5,7 +5,7 @@ function PostSingle() {
   const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto my-5" style={{ maxWidth: "500px;" }}>
+    <div className="container mx-auto my-5" style={{ maxWidth: "500px" }}>
       <h1 className="h1 mb-4 text-center">Post 1</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris purus

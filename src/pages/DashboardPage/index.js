@@ -5,7 +5,7 @@ function Dashboard() {
   const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto my-5" style={{ maxWidth: "800px;" }}>
+    <div className="container mx-auto my-5" style={{ maxWidth: "800px" }}>
       <h1 className="h1 mb-4 text-center">Dashboard</h1>
       <div className="row">
         <div className="col">

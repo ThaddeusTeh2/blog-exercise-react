@@ -4,7 +4,7 @@ function UserEdit() {
   const navigate = useNavigate();
 
   return (
-    <div className="container mx-auto my-5" style={{ maxWidth: "700px;" }}>
+    <div className="container mx-auto my-5" style={{ maxWidth: "700px" }}>
       <div className="d-flex justify-content-between align-items-center mb-2">
         <h1 className="h1">Edit User</h1>
       </div>
